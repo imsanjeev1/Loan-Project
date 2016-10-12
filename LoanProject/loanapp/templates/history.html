@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+{% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}">
+{% if mess %}
+        {{ mess }}
+    {% endif %}
+
+<h1 align="center"><b style="font-size:40px;color:InactiveBorder;text-decoration:underline;font-family:menu;">Loan History</b></h1>
+    <form name = "register" action = "/history/" method = "post">
+        <table width = "60%" align = "center" border = "1">
+           <!-- <div>
+                <div><button type = "button"  onclick = "location.href = '/login/';"> LoanApply</button></div>
+                <div><button type = "button"  onclick = "location.href = '/change/';">2222</button></div>
+            </div>-->
+            <tr>
+                <th>Customer Name</th>
+                 <th>Loan Limit</th>
+                 <th>Loan Amount</th>
+                <th>Earning Amount</th>
+                 <th>Year</th>
+            </tr>
+            {% if data %}
+                {% for x in data %}
+                    <tr>
+                        <td>{{ x.cust_name }}</td>
+                        <td>{{ x.loan_limit}}</td>
+                        <td>{{ x.loan_amount}}</td>
+                        <td>{{ x.earn_amount }}</td>
+                        <td>{{ x.year }}</td>
+                    </tr>
+            {% endfor %}
+        {% endif %}
+        </table>
+    </form>
+{% endblock %}

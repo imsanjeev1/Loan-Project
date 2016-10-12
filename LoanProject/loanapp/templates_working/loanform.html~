@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+    {% if mess %}
+        <h3>{{ request.session.loan_amount_limit }}</h3>
+        <h1>{{ mess }}</h1>
+    {% endif %}
+    <form name = "register" action = "/lapply/" method = "post">
+        {% csrf_token %}
+        <table width = "60%" align = "center" border = "1">
+            <tr>
+                <td>Full name:</td>
+                <td><input type = "text" name = "fname" value = "{{ request.session.usersname }}" readonly /></td>
+            </tr>
+            <tr>
+                <td>Loan Amount:</td>
+                <td><input type = "text" name = "lamount" /></td>
+            </tr>
+            <tr>
+                <td>Earning Amount:</td>
+                <td><input type = "text" name = "eamount" /></td>
+            </tr>
+            <tr>
+                <td>Year:</td>
+                <td><input type = "text" name = "year" /></td>
+            </tr>
+            <tr>
+                <td colspan = "2" align = "center"><button type = "submit">Apply</button></td>
+    {% if cust_count > '1' %}
+                <td colspan = "2" align = "center"><button type = "button"  onclick = "location.href = '/history/';">View History</button></td>
+    {% endif %}
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

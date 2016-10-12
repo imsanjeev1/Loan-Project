@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block content %}
+{% load staticfiles %}
+    <h1>{{ mess }}</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loan Eligibility</title>
+   <!--<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}">-->
+</head>
+<body>
+    {% if dublicate %}
+        <div class="alert alert-warning">
+  <strong>Warning!</strong> {{ dublicate }}
+</div>
+      <!--http://jsfiddle.net/mfX57/982/     check this example
+      <h2>This email already exit Your loan eligibility :{{ mess }}</h2>-->
+    {% endif %}
+    <form name = "login" action = "/eligibility/" method = "post">
+	<h1 align="center"><b style="font-size:40px;color:InactiveBorder;text-decoration:underline;font-family:menu;">Check Loan Eligibility</b></h1>
+        {% csrf_token %}
+        <table width = "60%" align = "center" border = "1">
+            <tr>
+                <td>Username:</td>
+                <td><input type = "text" name = "username" placeholder="Username"/></td>
+            </tr>
+             <tr>
+                <td>Email:</td>
+                <td><input type = "text" name = "email" placeholder="xyz@email.com"/></td>
+            </tr>
+            <tr>
+                <td>Companyname:</td>
+                <td><input type = "text" name = "c_name" placeholder="Company Name"/></td>
+            </tr>
+               <tr>
+                <td>Earn Amount:</td>
+                <td><input type = "text" name = "e_amount" placeholder="Earn Amount"/></td>
+            </tr>
+               <tr>
+                <td>Loan Amount:</td>
+                <td><input type = "text" name = "l_amount" placeholder="Loan Amount"/></td>
+            </tr>
+            <tr>
+                <td>Year:</td>
+                <td><input type = "text" name = "year" placeholder="Year"/></td>
+            </tr>
+            <tr>
+                <td colspan = "2" align = "center"><button type = "submit" class="btn btn-default">check</button></td>
+                <!--<td colspan = "2" align = "center"><button type = "button" onclick = "location.href = '/register/';">Register</button></td>-->
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+{% endblock %}

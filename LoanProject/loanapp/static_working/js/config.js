@@ -1,0 +1,2 @@
+var Tm = Tm || {};
+Tm.Config = {"chat":{"enabled":true,"rooms":[{"name":"support","locales":{"en":"1"}},{"name":"billing","locales":{"en":"1"}},{"name":"pre-sales","locales":{"en":"1","es":"1","ru":"1","de":"1","fr":"2"}}],"signInUrl":"http:\/\/chat.template-help.com\/connect.jsp"},"notifications":{"webSocketUrl":"https:\/\/ws.templatemonster.com\/"},"locales":[],"cookieDomain":".templatemonster.com"};

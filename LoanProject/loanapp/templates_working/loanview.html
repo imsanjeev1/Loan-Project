@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Show Data</title>
+</head>
+<body>
+    <h3>{{ request.session.loan_limit }}</h3>
+    <form name = "register" action = "/lapply/" method = "post">
+        <table width = "60%" align = "center" border = "1">
+
+            <tr>
+                <td>LoanLimit:</td>
+                <td><input type = "text" name = "custname" value = "{{ request.session.loan_limit }}" readonly /></td>
+            </tr>
+            <tr>
+                <td>Customsser Name:</td>
+                <td><input type = "text" name = "custname" value = "{{ request.session.fname }}" readonly /></td>
+            </tr>
+            <tr>
+                <td>Loan Amount:</td>
+                <td><input type = "text" name = "lamount" value = "{{ request.session.lamt }}" /></td>
+            </tr>
+            <tr>
+                <td>Earning Amount:</td>
+                <td><input type = "text" name = "eamount" value = "{{ request.session.eamt }}" /></td>
+            </tr>
+            <tr>
+                <td>Year:</td>
+                <td><input type = "text" name = "year" value = "{{ request.session.year }}" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

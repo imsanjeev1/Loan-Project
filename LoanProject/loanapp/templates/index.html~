@@ -1,0 +1,294 @@
+﻿{% extends "base.html" %}
+{% block content %}
+{% load staticfiles %}
+<div id="header_wrapper" class="header_wrapper region-fullwidth">
+<div class="region region-header">
+<div id="block-views-slider-block" class="block-views-slider-block block block-views block-even">
+
+
+<div class="content block-content">
+<div class="view view-slider view-id-slider view-display-id-block view-dom-id-4830bebcd1650b8e2c2ecacd1fb8f656">
+<div class="view-content">
+<div id="flexslider-1" class="flexslider">
+<ul class="slides"><li>
+<div class="views-field views-field-field-slide-image"> <div class="field-content"><img src="{% static 'img/slide1.jpg' %}" width="1600" height="730"/></div> </div><div class="flex-caption"><div class="container-12">
+<div class="grid-12">
+<div class="inner">
+<h2><a href="?q=node/90">We are proud
+<span class="subtitle">of providing you with the highest level of professional services</span>
+</a></h2>
+</div>
+</div>
+</div></div></li>
+<li>
+<div class="views-field views-field-field-slide-image"> <div class="field-content"><img src="{% static 'img/slide2.jpg' %}" width="1600" height="730"/></div> </div><div class="flex-caption"><div class="container-12">
+<div class="grid-12">
+<div class="inner">
+<h2><a href="?q=node/89">We can easily
+<span class="subtitle">learn you to manage your money in the situation of financial crisis</span>
+</a></h2>
+</div>
+</div>
+</div></div></li>
+<li>
+<div class="views-field views-field-field-slide-image"> <div class="field-content"><img src="{% static 'img/slide3.jpg' %}" width="1600" height="730"/></div> </div><div class="flex-caption"><div class="container-12">
+<div class="grid-12">
+<div class="inner">
+<h2><a href="?q=node/47">We work for client
+<span class="subtitle">satisfaction because our client is more valuable than money</span>
+</a></h2>
+</div>
+</div>
+</div></div></li>
+</ul></div>
+</div>
+<div class="view-footer">
+<div class="view view-articles view-id-articles view-display-id-block container-12 view-dom-id-0c0831bfe72a48cc7bc94689b341b155">
+<div class="view-content">
+<div class="views-row first odd">
+<h5 class="views-field views-field-title"> <span class="field-content" style="cursor:pointer;"><a href="#" >Benefits of Working</a></span> </h5>
+<div class="views-field views-field-body"> <span class="field-content" style="cursor:pointer;">We provide banking without boundaries and wealth...</span> </div>
+<!--<div class="views-field views-field-view-node"> <span class="field-content"><a href="/drupal_55958/?q=node/109">view</a></span> </div>--> </div>
+<div class="views-row even">
+<h5 class="views-field views-field-title"> <span class="field-content" style="cursor:pointer;"><a href="#">Best Bank Accounts</a></span> </h5>
+<div class="views-field views-field-body"> <span class="field-content" style="cursor:pointer;">Your bank account is the backbone of your financial...</span> </div>
+<!--<div class="views-field views-field-view-node"> <span class="field-content"><a href="/drupal_55958/?q=node/108">view</a></span> </div>--> </div>
+<div class="views-row odd">
+<h5 class="views-field views-field-title"> <span class="field-content" style="cursor:pointer;"><a href="/#">Banknotes &amp; Coins</a></span> </h5>
+<div class="views-field views-field-body"> <span class="field-content" style="cursor:pointer;">Our bank has the exclusive right to issue banknotes...</span> </div>
+<!--<div class="views-field views-field-view-node"> <span class="field-content"><a href="/drupal_55958/?q=node/107">view</a></span> </div>--> </div>
+<div class="views-row omega even">
+<h5 class="views-field views-field-title"> <span class="field-content" style="cursor:pointer;"><a href="#">Currency Exchange</a></span> </h5>
+<div class="views-field views-field-body"> <span class="field-content" style="cursor:pointer;">Account holders can exchange foreign currency at a...</span> </div>
+<!--<div class="views-field views-field-view-node"> <span class="field-content"><a href="/drupal_55958/?q=node/106">view</a></span> </div>--> </div>
+</div>
+</div> </div>
+</div> </div>
+</div> </div>
+</div>
+
+</header>
+
+<div id="main-wrapper" class="main-wrapper" role="main">
+
+<div class="container-12">
+<div class="grid-12">
+<div id="main" class="main clearfix">
+
+<div id="content" class="content content-main ">
+
+<div class="region region-content">
+<div id="block-system-main" class="block-system-main block block-system block-odd">
+
+
+<div class="content block-content">
+</div>
+</div>
+<div id="block-views-articles-block-1" class="block-views-articles-block-1 block block-views prefix-6 block-even">
+
+
+<div class="content block-content">
+<div class="view view-articles view-id-articles view-display-id-block_1 view-dom-id-21c3199752aea07a800347cd6657dfed">
+<div class="view-content">
+<div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+<h2 class="views-field views-field-title suffix-2"> <span class="field-content"><a href="/drupal_55958/?q=node/110">We help you in your success</a></span> </h2>
+<div class="views-field views-field-body"> <span class="field-content">Express Bank believes strong businesses build strong communities. We understand your business and know how to help you get the most out of it. Our bankers have an in-depth knowledge of your community and local economy and are committed to helping your businesses succeed and grow. Our banking experts can help you start a new business, finance your operation, make...</span> </div>
+<div class="views-field views-field-view-node btn"> <span class="field-content"><a href="/drupal_55958/?q=node/110">Read More</a></span> </div> </div>
+</div>
+</div> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="section_1_wrapper" class="section_1_wrapper img-bg parallax-box image-parallax-box">
+<div class="container-12"><div class="grid-12"> <div class="region region-section-1">
+<div id="block-views-articles-block-2" class="block-views-articles-block-2 block block-views grid-6 alpha omega block-odd">
+
+
+<div class="content block-content">
+<div class="view view-articles view-id-articles view-display-id-block_2 view-dom-id-b139f1b7884270918a102e264b31c199">
+<div class="view-content">
+<div class="views-row first omega odd">
+<h2 class="views-field views-field-title suffix-1"> <span class="field-content"><a href="/drupal_55958/?q=node/111">Get a Quick Student Credit Card</a></span> </h2>
+<div class="views-field views-field-body"> <span class="field-content">Student Credit Card offers up to 57 days interest-free credit too - helping you to manage your cash flow and budget.
+A Student Credit Card is a great way of preparing for the future and building up a good credit history while studying, making it easier to get credit when you really need it: to buy a...</span> </div>
+<div class="views-field views-field-view-node btn"> <span class="field-content"><a href="/drupal_55958/?q=node/111">Read More</a></span> </div> </div>
+</div>
+</div> </div>
+</div> </div>
+</div></div><div class="parallax-bg" data-parallax-type="image" data-img-url="{% static 'img/bg01.jpg' %}" data-speed="0.5" data-invert="false"></div></div>
+
+
+<div id="section_3_wrapper" class="section_3_wrapper">
+<div class="container-12"><div class="grid-12"> <div class="region region-section-3">
+<div id="block-views-our-team-block-1" class="block-views-our-team-block-1 block block-views align-center block-even">
+
+<h2 class="title block-title">Management team</h2>
+
+<div class="content block-content">
+<div class="view view-our-team view-id-our_team view-display-id-block_1 view-dom-id-fafd5e086a8460005a09328ed285cae9">
+<div class="view-content">
+<div class="views-row grid-3 alpha odd">
+<div class="views-field views-field-field-employee-photo"> <div class="field-content"><img src="{% static 'img/img10.jpg' %}" width="246" height="246"/></div> </div>
+<h6 class="views-field views-field-title"> <span class="field-content"><a href="/drupal_55958/?q=node/73">Olivia Grosh</a></span> </h6>
+<div class="views-field views-field-body"> <span class="field-content">Olivia oversees and implements the organization’s social media activities and its hyperlocal news gathering projects.
+</span> </div> </div>
+<div class="views-row grid-3 even">
+<div class="views-field views-field-field-employee-photo"> <div class="field-content"><img src="{% static 'img/img11.jpg' %}" width="246" height="246"/></div> </div>
+<h6 class="views-field views-field-title"> <span class="field-content"><a href="/drupal_55958/?q=node/71">Patrick Pool</a></span> </h6>
+<div class="views-field views-field-body"> <span class="field-content">Patrick is responsible for the daily operation of the company and routinely reports to the highest ranking executive.
+</span> </div> </div>
+<div class="views-row grid-3 odd">
+<div class="views-field views-field-field-employee-photo"> <div class="field-content"><img src="{% static 'img/img12.jpg' %}" width="246" height="246"/></div> </div>
+<h6 class="views-field views-field-title"> <span class="field-content"><a href="/drupal_55958/?q=node/69">Caroline Beek</a></span> </h6>
+<div class="views-field views-field-body"> <span class="field-content">Caroline is an irreplaceable person in any product development process. She also assumes the roles of an art director,...</span> </div> </div>
+<div class="views-row grid-3 omega even">
+<div class="views-field views-field-field-employee-photo"> <div class="field-content"><img src="{% static 'img/img13.jpg' %}" width="246" height="246"/></div> </div>
+<h6 class="views-field views-field-title"> <span class="field-content"><a href="/drupal_55958/?q=node/68">Mark Johnson</a></span> </h6>
+<div class="views-field views-field-body"> <span class="field-content">Mark is responsible for obtaining, analyzing, and reporting on data ranging from business metrics to user behavior and...</span> </div> </div>
+</div>
+</div> </div>
+</div> </div>
+</div></div></div>
+
+<div id="section_4_wrapper" class="section_4_wrapper img-bg parallax-box image-parallax-box">
+<div class="container-12"><div class="grid-12"> <div class="region region-section-4">
+<div id="block-views-articles-block-3" class="block-views-articles-block-3 block block-views prefix-6 block-odd">
+
+
+<div class="content block-content">
+<div class="view view-articles view-id-articles view-display-id-block_3 view-dom-id-085661d0f1499fb925f39cb0836757a3">
+<div class="view-content">
+<div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+<h2 class="views-field views-field-title"> <span class="field-content"><a href="/drupal_55958/?q=node/112">The best way to save your time and money</a></span> </h2>
+<div class="views-field views-field-body"> <span class="field-content">Express bank will save your time, money and improve the way you manage your business finances. You will have the control you need, with multiple disbursement and payment options, along with many other cash management features to help you optimize your business cash flow.
+</span> </div>
+<div class="views-field views-field-view-node btn"> <span class="field-content"><a href="/drupal_55958/?q=node/112">Read More</a></span> </div> </div>
+</div>
+</div> </div>
+</div> </div>
+</div></div><div class="parallax-bg" data-parallax-type="image" data-img-url="{% static 'img/bg02.jpg' %}" data-speed="0.5" data-invert="false"></div></div>
+
+
+<div id="section_6_wrapper" class="section_6_wrapper">
+<div class="container-12"><div class="grid-12"> <div class="region region-section-6">
+<div id="block-views-testimonials-block" class="block-views-testimonials-block block block-views align-center block-even">
+
+<h2 class="title block-title">Clients say</h2>
+
+<div class="content block-content">
+<div class="view view-testimonials view-id-testimonials view-display-id-block view-dom-id-5a3674cd9f5f6ec6ffb01a72e3d733ea">
+<div class="view-content">
+<div id="flexslider-2" class="flexslider">
+<ul class="slides"><li>
+<div class="views-field views-field-body"> Your service is one of those tools that every entrepreneur should be using. With this easy to use solution, entrepreneurs save time and money, so they can focus on other aspects of their business.
+</div>
+<div class="views-field views-field-field-testi-image"> <div class="field-content"><img src="{% static 'img/img01.jpg' %}" width="89" height="89"/></div> </div>
+<div class="views-field views-field-field-testi-author"> <div class="field-content"><a href="?q=node/88">Jessica Priston, Client</a></div> </div></li>
+<li>
+<div class="views-field views-field-body"> Your company understands today’s requirements, but that’s not what makes you stand apart. You also understand today’s business world and how to keep customers happy. That is why you win.
+</div>
+<div class="views-field views-field-field-testi-image"> <div class="field-content"><img src="{% static 'img/img25.jpg' %}" width="89" height="89"/></div> </div>
+<div class="views-field views-field-field-testi-author"> <div class="field-content"><a href="?q=node/87">Alan Smith, Client</a></div> </div></li>
+<li>
+<div class="views-field views-field-body"> The bottom line for us is time saving. Your service saves us about four hours a week in tedious work whilst giving us better quality performance than we could hope.
+</div>
+<div class="views-field views-field-field-testi-image"> <div class="field-content"><img src="{% static 'img/img28.jpg' %}" width="89" height="89"/></div> </div>
+<div class="views-field views-field-field-testi-author"> <div class="field-content"><a href="?q=node/86">John Franklin, Client</a></div> </div></li>
+</ul></div>
+</div>
+</div> </div>
+</div> </div>
+</div></div></div>
+
+<div id="content_bottom_wrapper" class="content_bottom_wrapper img-bg parallax-box image-parallax-box">
+<div class="container-12"><div class="grid-12"> <div class="region region-content-bottom">
+<div id="block-block-9" class="block-block-9 block block-block block-piegraphs align-center block-odd">
+
+<h2 class="title block-title">Our main values &amp; top priorities</h2>
+
+<div class="content block-content">
+<div class="grid-3 alpha">
+<div class="piegraph-wrap">
+<div class="piegraph" data-bar-color="#fff" data-track-color="rgba(255, 255, 255, 0.1)" data-percent="87" data-line-width="10" data-size="148" data-rotate="135"><span class="piegraph-percent"></span></div>
+<div class="piegraph-title">Adoption of new core banking platforms</div>
+</div>
+</div>
+<div class="grid-3">
+<div class="piegraph-wrap">
+<div class="piegraph" data-bar-color="#fff" data-track-color="rgba(255, 255, 255, 0.1)" data-percent="75" data-line-width="10" data-size="148" data-rotate="180"><span class="piegraph-percent"></span></div>
+<div class="piegraph-title">Mobile technology and social media</div>
+</div>
+</div>
+<div class="grid-3">
+<div class="piegraph-wrap">
+<div class="piegraph" data-bar-color="#fff" data-track-color="rgba(255, 255, 255, 0.1)" data-percent="50" data-line-width="10" data-size="148" data-rotate="180"><span class="piegraph-percent"></span></div>
+<div class="piegraph-title">Connecting with communities</div>
+</div>
+</div>
+<div class="grid-3 omega">
+<div class="piegraph-wrap">
+<div class="piegraph" data-bar-color="#fff" data-track-color="rgba(255, 255, 255, 0.1)" data-percent="25" data-line-width="10" data-size="148" data-rotate="180"><span class="piegraph-percent"></span></div>
+<div class="piegraph-title">Changing consumer behaviors</div>
+</div>
+</div>
+</div>
+</div> </div>
+</div></div><div class="parallax-bg" data-parallax-type="image" data-img-url="{% static 'img/bg03.jpg' %}" data-speed="0.5" data-invert="false"></div></div> </div>
+
+<footer id="footer" class="footer page-footer" role="contentinfo">
+
+<div id="footer_top_wrapper" class="footer_top_wrapper">
+<div class="container-12"><div class="grid-12"> <div class="region region-footer-top">
+<div id="block-block-5" class="block-block-5 block block-block block-copyright grid-3 alpha block-even">
+
+
+<div class="content block-content">
+<div>
+<div class="sitelogo"><a href="/drupal_55958/" class="active"><img src="{% static 'img/footer-logo.png' %}" alt="Footer logo"></a></div>
+&copy; 2016 All Rights Reserved.<br>
+<a href="?q=privacy-policy">Privacy Policy</a>
+</div>
+<div class="switcher">Desktop Version Only</div> </div>
+</div>
+<div id="block-block-10" class="block-block-10 block block-block block-locations grid-3 block-odd">
+
+<h2 class="title block-title">Our Locations</h2>
+
+<div class="content block-content">
+<p>8901 Marmora Road<br/>
+Glasgow, DO4 89GR.</p>
+<p>9863 - 9867 Mill Road,<br/>
+Cambridge, MG09 99HT.</p>
+</div>
+</div>
+<div id="block-menu-block-1" class="block-menu-block-1 block block-menu-block footer-menu grid-3 block-even">
+
+<h2 class="title block-title">Menu</h2>
+
+<div class="content block-content">
+<div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+<ul class="menu clearfix"><li class="first leaf active menu-mlid-201 home mid-201"><a href="/drupal_55958/" title="Front page" class="active">Home</a></li>
+<li class="leaf has-children menu-mlid-5074 about-us mid-5074"><a href="/drupal_55958/?q=about" title="">About us</a></li>
+<li class="leaf has-children menu-mlid-739 services mid-739"><a href="/drupal_55958/?q=portfolio" title="">Services</a></li>
+<li class="leaf menu-mlid-668 blog mid-668"><a href="/drupal_55958/?q=blog" title="">Blog</a></li>
+<li class="last leaf menu-mlid-4931 contacts mid-4931"><a href="/drupal_55958/?q=contacts">Contacts</a></li>
+</ul></div>
+</div>
+</div>
+<div id="block-block-11" class="block-block-11 block block-block block-links grid-3 omega block-odd">
+
+<h2 class="title block-title">Useful Links</h2>
+
+<div class="content block-content">
+<ul><li><a href="#">Online banking</a></li>
+<li><a href="#">Deposit accounts</a></li>
+<li><a href="#">Foreign exchange</a></li>
+<li><a href="#">Card support</a></li>
+<li><a href="#">Mobile Banking</a></li>
+</ul> </div>
+</div> </div>
+</div></div></div>
+{% endblock %}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User History</title>
+</head>
+<body>
+{% if data %}
+        {{ mess }}
+    {% endif %}
+    <form name = "register" action = "/history/" method = "post">
+        <table width = "60%" align = "center" border = "1">
+		<div style="margin-right:149px;">
+		<div style="float:right;"><button type = "button" onclick = "location.href = '/apply_loan/';">Apply Loan</button></div>
+		<div style="float:right;"><button type = "button" onclick = "location.href = '/newuser/';">Register</button></div>
+			<div style="float:right;">ssss</div>
+		
+		</div>
+            <tr>
+                <td>Customer Name:</td>
+                 <td>Loan Limit:</td>
+                 <td>Loan Amount:</td>
+                <td>Earning Amount:</td>
+                 <td>Year:</td>
+            </tr>
+            {% if data %}
+                {% for x in data %}
+                    <tr>
+                        <td>{{ x.cust_name }}</td>
+                        <td>{{ x.loan_limit}}</td>
+                        <td>{{ x.loan_amount}}</td>
+                        <td>{{ x.earn_amount }}</td>
+                        <td>{{ x.year }}</td>
+                    </tr>
+            {% endfor %}
+        {% endif %}
+        </table>
+    </form>
+</body>
+</html>

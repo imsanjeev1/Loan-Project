@@ -4,6 +4,7 @@ from loanapp.models import AuthUsers, LoanEntries,LoanEligibility
 #from passlib.hash import md5_crypt
 import hashlib
 # Create your views here.
+# Create your views here.
 def index(request):
     return render_to_response("index.html", {'mess': '','index': 'class=active-trail first odd sf-item-1 sf-depth-1 sf-no-children'}, context_instance = RequestContext(request))
 

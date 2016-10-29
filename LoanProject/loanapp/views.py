@@ -68,8 +68,11 @@ def signin(request):
                                       context_instance=RequestContext(request))
 
 def loanapply(request):
-    email = request.session["usersname"] 
-    cust_count = LoanEntries.objects.filter(check_email = email).count()
+    cust_count = ''
+    check_count = AuthUsers.objects.count()
+    if check_count > 0:
+        email = request.session["usersname"] 
+        cust_count = LoanEntries.objects.filter(check_email = email).count()
     if request.method == 'POST':
         fname = request.POST['fname']
         loan_amount = request.POST['lamount']
@@ -77,14 +80,12 @@ def loanapply(request):
         #loan_amount_limit =request.POST['l_limit']
         loan_limit = int(earn_amount) * 3
         year = request.POST['year']
-        email = request.session["usersname"] 
-        cust_count = LoanEntries.objects.filter(check_email = email).count()
-        #if loan_amount
-        #session_loan = request.session['lamt']
-	#select 
-        #if int(loan_amount)+loan_limit:
-        #   #return render_to_response("loanform.html", {'mess': 'Exceed your limit.Your Limit is only'+str(loan_limit)}, context_instance=RequestContext(request))
-
+	if check_count > 0:
+            email = request.session["usersname"] 
+            cust_count = LoanEntries.objects.filter(check_email = email).count()
+	else:
+	    return render_to_response("loanform.html", {'reguser': 'class=active-trail first odd sf-item-1 sf-depth-1 sf-no-children'}, context_instance=RequestContext(request))
+       
         if int(loan_amount) > loan_limit:
             return render_to_response("loanform.html", {'mess': 'Your Loan amount should not be greater than loanlimit.','reguser': 'class=active-trail first odd sf-item-1 sf-depth-1 sf-no-children','cust_count':str(cust_count)}, context_instance=RequestContext(request))
         loantable = LoanEntries(
@@ -113,12 +114,13 @@ def get_data(request):
     return render_to_response("loanview.html", {'mess': ''}, context_instance=RequestContext(request))
 
 def history(request):
-    #check_count = AuthUsers.objects.count()
-    username = request.session["usersname"]
-    data = LoanEntries.objects.filter(cust_name = username)
-    mess = data
-    #print(data)
-    return render_to_response("history.html", {'data': data}, context_instance=RequestContext(request))
+    check_count = AuthUsers.objects.count()
+    if check_count > 0 :
+        username = request.session["usersname"]
+        data = LoanEntries.objects.filter(cust_name = username)
+	return render_to_response("history.html", {'data': data}, context_instance=RequestContext(request))
+    else:
+        return render_to_response("history.html", context_instance=RequestContext(request))
 
 def checklimit(request):
     if request.method == 'POST':
